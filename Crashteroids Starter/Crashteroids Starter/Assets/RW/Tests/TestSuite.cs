@@ -83,6 +83,26 @@ public class TestSuite
         Assert.AreEqual(game.score, 1);
     }
 
+    [UnityTest]
+    public IEnumerator NewGameScore0()
+    {
+        Assert.AreEqual(game.score, 0);
+
+        //Set score to 1.
+        game.score = 1;
+
+        Assert.AreEqual(game.score, 1);
+
+        //Set game to game over and start a new one.
+        game.isGameOver = true;
+        game.NewGame();
+
+        yield return new WaitForSeconds(0.1f);
+
+        //Check result.
+        Assert.AreEqual(game.score, 0);
+    }
+
     [TearDown]
     public void Teardown()
     {
