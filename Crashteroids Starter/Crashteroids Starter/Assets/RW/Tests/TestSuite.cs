@@ -118,6 +118,8 @@ public class TestSuite
 
         yield return new WaitForSeconds(0.1f);
 
+        initialXPos = ship.transform.position.x;
+
         //Moves ship Right
         game.GetShip().MoveRight();
         //Checks to see if its greater then starting pos.
