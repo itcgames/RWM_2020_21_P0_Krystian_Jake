@@ -103,6 +103,28 @@ public class TestSuite
         Assert.AreEqual(game.score, 0);
     }
 
+    [UnityTest]
+    public IEnumerator ShipLeftRight()
+    {
+        GameObject ship = game.GetShip().gameObject;
+        float initialXPos = ship.transform.position.x;
+
+        yield return new WaitForSeconds(0.1f);
+        
+        //Moves ship Left
+        game.GetShip().MoveLeft();
+        //Checks if ship is greater the starting pos
+        Assert.Less(ship.transform.position.x, initialXPos);
+
+        yield return new WaitForSeconds(0.1f);
+
+        //Moves ship Right
+        game.GetShip().MoveRight();
+        //Checks to see if its greater then starting pos.
+        Assert.Greater(ship.transform.position.x, initialXPos);
+
+    }
+
     [TearDown]
     public void Teardown()
     {
