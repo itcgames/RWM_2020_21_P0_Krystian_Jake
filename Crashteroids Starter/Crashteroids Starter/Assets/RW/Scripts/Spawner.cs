@@ -35,6 +35,7 @@ using UnityEngine;
 public class Spawner : MonoBehaviour
 {
     public List<GameObject> asteroids = new List<GameObject>();
+    public List<GameObject> enemyShips = new List<GameObject>();
 
     [SerializeField]
     private GameObject asteroid1;
@@ -44,10 +45,13 @@ public class Spawner : MonoBehaviour
     private GameObject asteroid3;
     [SerializeField]
     private GameObject asteroid4;
+    [SerializeField]
+    private GameObject enemyShip;
 
     public void BeginSpawning()
     {
         StartCoroutine("Spawn");
+        StartCoroutine("SpawnEnemyShips");
     }
 
     IEnumerator Spawn()
@@ -55,7 +59,37 @@ public class Spawner : MonoBehaviour
         yield return new WaitForSeconds(0.4f);
 
         SpawnAsteroid();
+
         StartCoroutine("Spawn");
+    }
+
+    IEnumerator SpawnEnemyShips()
+    {
+        yield return new WaitForSeconds(8.0f);
+
+        SpawnShip();
+
+        StartCoroutine("SpawnEnemyShips");
+    }
+
+    public GameObject SpawnShip()
+    {
+        GameObject newEnemyShip = Instantiate(enemyShip);
+
+        bool moveLeft = 0 != Random.Range(0, 2);
+        newEnemyShip.transform.GetChild(0).GetComponent<EnemyShip>().SetMoveLeft(moveLeft);
+
+        if (moveLeft)
+        {
+            newEnemyShip.transform.position = new Vector3(8.0f, 7.25f, 0);
+        }
+        else
+        {
+            newEnemyShip.transform.position = new Vector3(-8.0f, 7.25f, 0);
+        }
+
+        enemyShips.Add(newEnemyShip);
+        return newEnemyShip;
     }
 
     public GameObject SpawnAsteroid()
@@ -102,8 +136,19 @@ public class Spawner : MonoBehaviour
         asteroids.Clear();
     }
 
+    public void ClearEnemyShips()
+    {
+        foreach (GameObject enemyShip in enemyShips)
+        {
+            Destroy(enemyShip);
+        }
+
+        enemyShips.Clear();
+    }
+
     public void StopSpawning()
     {
         StopCoroutine("Spawn");
+        StopCoroutine("SpawnEnemyShips");
     }
 }
