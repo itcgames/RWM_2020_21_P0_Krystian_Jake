@@ -60,6 +60,11 @@ public class EnemyShip : MonoBehaviour
         {
             transform.Translate(Vector3.right * Time.deltaTime * speed);
         }
+
+        if (transform.position.y < maxY)
+        {
+            Destroy(gameObject.transform.parent.gameObject);
+        }
     }
 
     public void SetMoveLeft(bool t_moveLeft)

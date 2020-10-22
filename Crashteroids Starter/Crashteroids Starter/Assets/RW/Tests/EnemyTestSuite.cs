@@ -19,6 +19,8 @@ public class EnemyTestSuite
     [UnityTest]
     public IEnumerator EnemyShipMove()
     {
+        game.NewGame();
+
         GameObject enemyShip = game.GetSpawner().SpawnShip();
 
         //Move Down-Left
@@ -46,6 +48,8 @@ public class EnemyTestSuite
     [UnityTest]
     public IEnumerator EnemyLaserMovesDown()
     {
+        game.NewGame();
+
         GameObject enemyShip = game.GetSpawner().SpawnShip();
         GameObject enemyLaser = enemyShip.transform.GetChild(0).GetComponent<EnemyShip>().SpawnLaser();
 
@@ -59,6 +63,8 @@ public class EnemyTestSuite
     [UnityTest]
     public IEnumerator EnemyLaserCollision()
     {
+        game.NewGame();
+
         GameObject enemyShip = game.GetSpawner().SpawnShip();
         GameObject enemyLaser = enemyShip.transform.GetChild(0).GetComponent<EnemyShip>().SpawnLaser();
         enemyLaser.transform.position = Vector3.zero;
@@ -92,6 +98,8 @@ public class EnemyTestSuite
     [UnityTest]
     public IEnumerator EnemyLaserOutOfBounds()
     {
+        game.NewGame();
+
         GameObject enemyShip = game.GetSpawner().SpawnShip();
         GameObject enemyLaser = enemyShip.transform.GetChild(0).GetComponent<EnemyShip>().SpawnLaser();
         enemyLaser.transform.position = new Vector3(0,-10,0);
@@ -99,5 +107,49 @@ public class EnemyTestSuite
         yield return new WaitForSeconds(0.1f);
 
         UnityEngine.Assertions.Assert.IsNull(enemyLaser);
+    }
+
+    // 5
+    [UnityTest]
+    public IEnumerator EnemyShipOutOfBounds()
+    {
+        game.NewGame();
+
+        GameObject enemyShip = game.GetSpawner().SpawnShip();
+        enemyShip.transform.GetChild(0).transform.position = new Vector3(0, -5, 0);
+
+        yield return new WaitForSeconds(0.1f);
+
+        UnityEngine.Assertions.Assert.IsNull(enemyShip);
+    }
+
+    // 6
+    [UnityTest]
+    public IEnumerator LaserDestroyedEnemyShip()
+    {
+        game.NewGame();
+
+        GameObject enemyShip = game.GetSpawner().SpawnShip();
+        enemyShip.transform.position = Vector3.zero;
+        GameObject laser = game.GetShip().SpawnLaser();
+        laser.transform.position = Vector3.zero;
+        yield return new WaitForSeconds(0.1f);
+        
+        UnityEngine.Assertions.Assert.IsNull(enemyShip);
+    }
+
+    //7
+    [UnityTest]
+    public IEnumerator DestroyedEnemyShipRaisesScore()
+    {
+        game.NewGame();
+
+        GameObject enemyShip = game.GetSpawner().SpawnShip();
+        enemyShip.transform.position = Vector3.zero;
+        GameObject laser = game.GetShip().SpawnLaser();
+        laser.transform.position = Vector3.zero;
+        yield return new WaitForSeconds(0.1f);
+
+        Assert.AreEqual(game.score, 2);
     }
 }

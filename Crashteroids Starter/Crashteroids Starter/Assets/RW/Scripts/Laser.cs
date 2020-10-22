@@ -56,4 +56,15 @@ public class Laser : MonoBehaviour
             Destroy(collision.gameObject);
         }
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject.name == "EnemyShipModel")
+        {
+            Game.EnemyShipDestroyed();
+            Destroy(gameObject);
+            spawner.enemyShips.Remove(other.gameObject.transform.parent.gameObject);
+            Destroy(other.gameObject.transform.parent.gameObject);
+        }
+    }
 }

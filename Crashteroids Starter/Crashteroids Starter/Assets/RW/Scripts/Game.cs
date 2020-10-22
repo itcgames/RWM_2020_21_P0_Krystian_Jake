@@ -95,6 +95,12 @@ public class Game : MonoBehaviour
         instance.scoreText.text = "Score: " + instance.score;
     }
 
+    public static void EnemyShipDestroyed()
+    {
+        instance.score += 2;
+        instance.scoreText.text = "Score: " + instance.score;
+    }
+
     public Ship GetShip()
     {
         return shipModel.GetComponent<Ship>();

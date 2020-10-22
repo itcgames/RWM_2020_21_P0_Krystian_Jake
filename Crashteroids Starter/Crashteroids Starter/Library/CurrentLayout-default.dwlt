@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 392}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 0
 --- !u!114 &2
@@ -112,10 +112,10 @@ MonoBehaviour:
     y: 30
     width: 1904
     height: 931
-  m_MinSize: {x: 781, y: 342}
-  m_MaxSize: {x: 16006, y: 8042}
+  m_MinSize: {x: 781, y: 492}
+  m_MaxSize: {x: 16006, y: 14042}
   vertical: 0
-  controlID: 20
+  controlID: 78
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -135,12 +135,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1419
+    width: 1628
     height: 931
-  m_MinSize: {x: 505, y: 342}
-  m_MaxSize: {x: 12005, y: 8042}
+  m_MinSize: {x: 505, y: 492}
+  m_MaxSize: {x: 12005, y: 14042}
   vertical: 1
-  controlID: 21
+  controlID: 79
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -161,12 +161,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1419
-    height: 617
+    width: 1628
+    height: 615
   m_MinSize: {x: 505, y: 221}
   m_MaxSize: {x: 12005, y: 4021}
   vertical: 0
-  controlID: 22
+  controlID: 80
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -184,8 +184,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 266
-    height: 617
+    width: 200
+    height: 615
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
@@ -208,12 +208,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 266
+    x: 200
     y: 0
-    width: 344
-    height: 617
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+    width: 421
+    height: 615
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 16}
@@ -235,12 +235,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 610
+    x: 621
     y: 0
-    width: 809
-    height: 617
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+    width: 1007
+    height: 615
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -257,23 +257,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ConsoleWindow
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 617
-    width: 1419
-    height: 314
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 19}
+    y: 615
+    width: 1628
+    height: 316
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
   - {fileID: 19}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -289,9 +289,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1419
+    x: 1628
     y: 0
-    width: 485
+    width: 276
     height: 931
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
@@ -320,22 +320,22 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 274
+    x: 208
     y: 81
-    width: 342
-    height: 596
+    width: 419
+    height: 594
   m_ViewDataDictionary: {fileID: 0}
   m_Spl:
-    ID: 156
+    ID: 160
     splitterInitialOffset: 347
     currentActiveSplitter: -1
-    realSizes: 49010000c5000000
+    realSizes: 48010000c4000000
     relativeSizes:
     - 0.62528217
     - 0.37471783
     minSizes: 2000000020000000
     maxSizes: 0000000000000000
-    lastTotalSize: 526
+    lastTotalSize: 524
     splitSize: 6
     xOffset: 0
   m_TestTypeToolbarIndex: 0
@@ -347,7 +347,7 @@ MonoBehaviour:
       name: UnityUnitTestingTutorial
       fullName: UnityUnitTestingTutorial
       resultStatus: 1
-      duration: 2.2941165
+      duration: 2.7680728
       messages: 
       output: 
       stacktrace: 
@@ -365,7 +365,7 @@ MonoBehaviour:
       fullName: C:/Users/Krystian/Desktop/4th Year Project/RWM_2020_21_P0_Krystian_Jake/Crashteroids
         Starter/Crashteroids Starter/Library/ScriptAssemblies/Tests.dll
       resultStatus: 1
-      duration: 2.199257
+      duration: 2.6599562
       messages: 
       output: 
       stacktrace: 
@@ -381,7 +381,7 @@ MonoBehaviour:
       name: EnemyTestSuite
       fullName: EnemyTestSuite
       resultStatus: 1
-      duration: 1.1035032
+      duration: 1.4825819
       messages: 
       output: 
       stacktrace: 
@@ -393,12 +393,12 @@ MonoBehaviour:
       parentId: 1012
       parentUniqueId: '[Tests][C:/Users/Krystian/Desktop/4th Year Project/RWM_2020_21_P0_Krystian_Jake/Crashteroids
         Starter/Crashteroids Starter/Library/ScriptAssemblies/Tests.dll][suite]'
-    - id: 1004
-      uniqueId: Tests.dll/EnemyTestSuite/[Tests][EnemyTestSuite.EnemyLaserCollision]
-      name: EnemyLaserCollision
-      fullName: EnemyTestSuite.EnemyLaserCollision
+    - id: 1008
+      uniqueId: Tests.dll/EnemyTestSuite/[Tests][EnemyTestSuite.DestroyedEnemyShipRaisesScore]
+      name: DestroyedEnemyShipRaisesScore
+      fullName: EnemyTestSuite.DestroyedEnemyShipRaisesScore
       resultStatus: 1
-      duration: 0.3909274
+      duration: 0.179707
       messages: 
       output: 
       stacktrace: 
@@ -410,12 +410,12 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1001
       parentUniqueId: Tests.dll/[Tests][EnemyTestSuite][suite]
-    - id: 1003
-      uniqueId: Tests.dll/EnemyTestSuite/[Tests][EnemyTestSuite.EnemyLaserMovesDown]
-      name: EnemyLaserMovesDown
-      fullName: EnemyTestSuite.EnemyLaserMovesDown
+    - id: 1004
+      uniqueId: Tests.dll/EnemyTestSuite/[Tests][EnemyTestSuite.EnemyLaserCollision]
+      name: EnemyLaserCollision
+      fullName: EnemyTestSuite.EnemyLaserCollision
       resultStatus: 1
-      duration: 0.1299231
+      duration: 0.3177512
       messages: 
       output: 'There are 2 audio listeners in the scene. Please ensure there is always
         exactly one audio listener in the scene.
@@ -589,6 +589,376 @@ MonoBehaviour:
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
+        There are 2 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 2 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 2 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 2 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 2 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 2 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 2 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 2 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 2 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 2 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 2 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 2 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 2 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 2 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 2 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 2 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 2 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 2 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 2 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 2 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 2 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 2 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 2 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 2 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 2 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 2 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 2 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 2 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 2 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 2 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 2 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 2 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 2 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 2 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 2 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 2 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 2 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 2 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 2 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 2 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 2 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 2 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 2 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 2 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 2 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 2 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 2 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 2 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 2 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 2 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 2 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 2 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 2 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 2 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 2 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 2 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 2 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 2 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 2 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 2 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 2 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 2 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 2 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 2 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 2 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 2 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 2 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 2 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 2 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 2 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 2 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 2 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 2 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 2 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 2 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 2 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 2 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 2 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 2 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 2 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 2 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 2 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 2 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 2 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 2 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 2 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 2 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 2 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 2 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 2 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 2 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 2 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 2 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 2 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 2 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 2 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 2 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 2 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 2 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 2 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 2 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
 '
       stacktrace: 
       notRunnable: 0
@@ -599,12 +969,12 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1001
       parentUniqueId: Tests.dll/[Tests][EnemyTestSuite][suite]
-    - id: 1005
-      uniqueId: Tests.dll/EnemyTestSuite/[Tests][EnemyTestSuite.EnemyLaserOutOfBounds]
-      name: EnemyLaserOutOfBounds
-      fullName: EnemyTestSuite.EnemyLaserOutOfBounds
+    - id: 1003
+      uniqueId: Tests.dll/EnemyTestSuite/[Tests][EnemyTestSuite.EnemyLaserMovesDown]
+      name: EnemyLaserMovesDown
+      fullName: EnemyTestSuite.EnemyLaserMovesDown
       resultStatus: 1
-      duration: 0.1137321
+      duration: 0.1211757
       messages: 
       output: 'There are 3 audio listeners in the scene. Please ensure there is always
         exactly one audio listener in the scene.
@@ -784,12 +1154,12 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1001
       parentUniqueId: Tests.dll/[Tests][EnemyTestSuite][suite]
-    - id: 1002
-      uniqueId: Tests.dll/EnemyTestSuite/[Tests][EnemyTestSuite.EnemyShipMove]
-      name: EnemyShipMove
-      fullName: EnemyTestSuite.EnemyShipMove
+    - id: 1005
+      uniqueId: Tests.dll/EnemyTestSuite/[Tests][EnemyTestSuite.EnemyLaserOutOfBounds]
+      name: EnemyLaserOutOfBounds
+      fullName: EnemyTestSuite.EnemyLaserOutOfBounds
       resultStatus: 1
-      duration: 0.4176083
+      duration: 0.117776
       messages: 
       output: 'There are 4 audio listeners in the scene. Please ensure there is always
         exactly one audio listener in the scene.
@@ -797,391 +1167,6 @@ MonoBehaviour:
         There are 4 audio listeners
         in the scene. Please ensure there is always exactly one audio listener in
         the scene.
-
-        There are 4 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
-
-        There
-        are 4 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
-
-        There are 4 audio listeners in
-        the scene. Please ensure there is always exactly one audio listener in the
-        scene.
-
-        There are 4 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
-
-        There
-        are 4 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
-
-        There are 4 audio listeners in
-        the scene. Please ensure there is always exactly one audio listener in the
-        scene.
-
-        There are 4 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
-
-        There
-        are 4 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
-
-        There are 4 audio listeners in
-        the scene. Please ensure there is always exactly one audio listener in the
-        scene.
-
-        There are 4 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
-
-        There
-        are 4 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
-
-        There are 4 audio listeners in
-        the scene. Please ensure there is always exactly one audio listener in the
-        scene.
-
-        There are 4 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
-
-        There
-        are 4 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
-
-        There are 4 audio listeners in
-        the scene. Please ensure there is always exactly one audio listener in the
-        scene.
-
-        There are 4 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
-
-        There
-        are 4 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
-
-        There are 4 audio listeners in
-        the scene. Please ensure there is always exactly one audio listener in the
-        scene.
-
-        There are 4 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
-
-        There
-        are 4 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
-
-        There are 4 audio listeners in
-        the scene. Please ensure there is always exactly one audio listener in the
-        scene.
-
-        There are 4 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
-
-        There
-        are 4 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
-
-        There are 4 audio listeners in
-        the scene. Please ensure there is always exactly one audio listener in the
-        scene.
-
-        There are 4 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
-
-        There
-        are 4 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
-
-        There are 4 audio listeners in
-        the scene. Please ensure there is always exactly one audio listener in the
-        scene.
-
-        There are 4 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
-
-        There
-        are 4 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
-
-        There are 4 audio listeners in
-        the scene. Please ensure there is always exactly one audio listener in the
-        scene.
-
-        There are 4 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
-
-        There
-        are 4 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
-
-        There are 4 audio listeners in
-        the scene. Please ensure there is always exactly one audio listener in the
-        scene.
-
-        There are 4 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
-
-        There
-        are 4 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
-
-        There are 4 audio listeners in
-        the scene. Please ensure there is always exactly one audio listener in the
-        scene.
-
-        There are 4 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
-
-        There
-        are 4 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
-
-        There are 4 audio listeners in
-        the scene. Please ensure there is always exactly one audio listener in the
-        scene.
-
-        There are 4 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
-
-        There
-        are 4 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
-
-        There are 4 audio listeners in
-        the scene. Please ensure there is always exactly one audio listener in the
-        scene.
-
-        There are 4 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
-
-        There
-        are 4 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
-
-        There are 4 audio listeners in
-        the scene. Please ensure there is always exactly one audio listener in the
-        scene.
-
-        There are 4 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
-
-        There
-        are 4 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
-
-        There are 4 audio listeners in
-        the scene. Please ensure there is always exactly one audio listener in the
-        scene.
-
-        There are 4 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
-
-        There
-        are 4 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
-
-        There are 4 audio listeners in
-        the scene. Please ensure there is always exactly one audio listener in the
-        scene.
-
-        There are 4 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
-
-        There
-        are 4 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
-
-        There are 4 audio listeners in
-        the scene. Please ensure there is always exactly one audio listener in the
-        scene.
-
-        There are 4 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
-
-        There
-        are 4 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
-
-        There are 4 audio listeners in
-        the scene. Please ensure there is always exactly one audio listener in the
-        scene.
-
-        There are 4 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
-
-        There
-        are 4 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
-
-        There are 4 audio listeners in
-        the scene. Please ensure there is always exactly one audio listener in the
-        scene.
-
-        There are 4 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
-
-        There
-        are 4 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
-
-        There are 4 audio listeners in
-        the scene. Please ensure there is always exactly one audio listener in the
-        scene.
-
-        There are 4 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
-
-        There
-        are 4 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
-
-        There are 4 audio listeners in
-        the scene. Please ensure there is always exactly one audio listener in the
-        scene.
-
-        There are 4 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
-
-        There
-        are 4 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
-
-        There are 4 audio listeners in
-        the scene. Please ensure there is always exactly one audio listener in the
-        scene.
-
-        There are 4 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
-
-        There
-        are 4 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
-
-        There are 4 audio listeners in
-        the scene. Please ensure there is always exactly one audio listener in the
-        scene.
-
-        There are 4 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
-
-        There
-        are 4 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
-
-        There are 4 audio listeners in
-        the scene. Please ensure there is always exactly one audio listener in the
-        scene.
-
-        There are 4 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
-
-        There
-        are 4 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
-
-        There are 4 audio listeners in
-        the scene. Please ensure there is always exactly one audio listener in the
-        scene.
-
-        There are 4 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
-
-        There
-        are 4 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
-
-        There are 4 audio listeners in
-        the scene. Please ensure there is always exactly one audio listener in the
-        scene.
-
-        There are 4 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
-
-        There
-        are 4 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
-
-        There are 4 audio listeners in
-        the scene. Please ensure there is always exactly one audio listener in the
-        scene.
-
-        There are 4 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
-
-        There
-        are 4 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
-
-        There are 4 audio listeners in
-        the scene. Please ensure there is always exactly one audio listener in the
-        scene.
-
-        There are 4 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
-
-        There
-        are 4 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
-
-        There are 4 audio listeners in
-        the scene. Please ensure there is always exactly one audio listener in the
-        scene.
-
-        There are 4 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
-
-        There
-        are 4 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
-
-        There are 4 audio listeners in
-        the scene. Please ensure there is always exactly one audio listener in the
-        scene.
-
-        There are 4 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
-
-        There
-        are 4 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
-
-        There are 4 audio listeners in
-        the scene. Please ensure there is always exactly one audio listener in the
-        scene.
-
-        There are 4 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
-
-        There
-        are 4 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
-
-        There are 4 audio listeners in
-        the scene. Please ensure there is always exactly one audio listener in the
-        scene.
-
-        There are 4 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
-
-        There
-        are 4 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
-
-        There are 4 audio listeners in
-        the scene. Please ensure there is always exactly one audio listener in the
-        scene.
-
-        There are 4 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
-
-        There
-        are 4 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
-
-        There are 4 audio listeners in
-        the scene. Please ensure there is always exactly one audio listener in the
-        scene.
 
         There are 4 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
@@ -1321,26 +1306,754 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1001
       parentUniqueId: Tests.dll/[Tests][EnemyTestSuite][suite]
+    - id: 1002
+      uniqueId: Tests.dll/EnemyTestSuite/[Tests][EnemyTestSuite.EnemyShipMove]
+      name: EnemyShipMove
+      fullName: EnemyTestSuite.EnemyShipMove
+      resultStatus: 1
+      duration: 0.4223823
+      messages: 
+      output: 'There are 5 audio listeners in the scene. Please ensure there is always
+        exactly one audio listener in the scene.
+
+        There are 5 audio listeners
+        in the scene. Please ensure there is always exactly one audio listener in
+        the scene.
+
+        There are 5 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 5 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 5 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 5 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 5 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 5 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 5 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 5 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 5 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 5 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 5 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 5 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 5 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 5 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 5 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 5 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 5 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 5 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 5 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 5 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 5 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 5 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 5 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 5 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 5 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 5 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 5 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 5 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 5 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 5 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 5 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 5 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 5 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 5 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 5 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 5 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 5 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 5 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 5 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 5 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 5 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 5 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 5 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 5 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 5 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 5 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 5 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 5 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 5 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 5 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 5 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 5 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 5 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 5 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 5 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 5 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 5 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 5 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 5 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 5 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 5 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 5 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 5 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 5 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 5 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 5 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 5 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 5 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 5 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 5 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 5 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 5 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 5 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 5 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 5 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 5 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 5 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 5 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 5 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 5 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 5 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 5 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 5 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 5 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 5 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 5 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 5 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 5 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 5 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 5 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 5 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 5 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 5 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 5 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 5 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 5 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 5 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 5 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 5 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 5 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 5 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 5 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 5 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 5 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 5 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 5 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 5 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 5 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 5 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 5 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 5 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 5 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 5 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 5 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 5 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 5 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 5 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 5 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 5 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 5 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 5 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 5 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 5 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 5 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 5 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/[Tests][EnemyTestSuite][suite]
+    - id: 1006
+      uniqueId: Tests.dll/EnemyTestSuite/[Tests][EnemyTestSuite.EnemyShipOutOfBounds]
+      name: EnemyShipOutOfBounds
+      fullName: EnemyTestSuite.EnemyShipOutOfBounds
+      resultStatus: 1
+      duration: 0.1214916
+      messages: 
+      output: 'There are 6 audio listeners in the scene. Please ensure there is always
+        exactly one audio listener in the scene.
+
+        There are 6 audio listeners
+        in the scene. Please ensure there is always exactly one audio listener in
+        the scene.
+
+        There are 6 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 6 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 6 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 6 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 6 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 6 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 6 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 6 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 6 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 6 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 6 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 6 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 6 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 6 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 6 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 6 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 6 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 6 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 6 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 6 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 6 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 6 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 6 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 6 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 6 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 6 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 6 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 6 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 6 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 6 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/[Tests][EnemyTestSuite][suite]
+    - id: 1007
+      uniqueId: Tests.dll/EnemyTestSuite/[Tests][EnemyTestSuite.LaserDestroyedEnemyShip]
+      name: LaserDestroyedEnemyShip
+      fullName: EnemyTestSuite.LaserDestroyedEnemyShip
+      resultStatus: 1
+      duration: 0.1278954
+      messages: 
+      output: 'There are 7 audio listeners in the scene. Please ensure there is always
+        exactly one audio listener in the scene.
+
+        There are 7 audio listeners
+        in the scene. Please ensure there is always exactly one audio listener in
+        the scene.
+
+        There are 7 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 7 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 7 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 7 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 7 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 7 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 7 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 7 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 7 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 7 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 7 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 7 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 7 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 7 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 7 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 7 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 7 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 7 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 7 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 7 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+        There are 7 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
+
+        There are 7 audio listeners in the scene. Please ensure
+        there is always exactly one audio listener in the scene.
+
+        There
+        are 7 audio listeners in the scene. Please ensure there is always exactly
+        one audio listener in the scene.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/[Tests][EnemyTestSuite][suite]
     - id: 1001
       uniqueId: Tests.dll/[Tests][TestSuite][suite]
       name: TestSuite
       fullName: TestSuite
       resultStatus: 1
-      duration: 1.016018
+      duration: 1.0830709
       messages: 
-      output: 'There are 4 audio listeners in the scene. Please ensure there is always
+      output: 'There are 7 audio listeners in the scene. Please ensure there is always
         exactly one audio listener in the scene.
 
-        There are 4 audio listeners
+        There are 7 audio listeners
         in the scene. Please ensure there is always exactly one audio listener in
         the scene.
 
-        There are 4 audio listeners in the scene. Please ensure
+        There are 7 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 4 audio listeners in the scene. Please ensure there is always exactly
+        are 7 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
+
+        There are 7 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
 
 '
       stacktrace: 
@@ -1357,138 +2070,102 @@ MonoBehaviour:
       name: AsteroidsMoveDown
       fullName: TestSuite.AsteroidsMoveDown
       resultStatus: 1
-      duration: 0.1184483
+      duration: 0.1210291
       messages: 
-      output: 'There are 5 audio listeners in the scene. Please ensure there is always
+      output: 'There are 8 audio listeners in the scene. Please ensure there is always
         exactly one audio listener in the scene.
 
-        There are 5 audio listeners
+        There are 8 audio listeners
         in the scene. Please ensure there is always exactly one audio listener in
         the scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 8 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 8 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 8 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 8 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 8 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 8 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 8 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 7 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 7 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
-
-        There are 5 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
-
-        There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
-
-        There are 5 audio listeners in
-        the scene. Please ensure there is always exactly one audio listener in the
-        scene.
-
-        There are 5 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
-
-        There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
-
-        There are 5 audio listeners in
-        the scene. Please ensure there is always exactly one audio listener in the
-        scene.
-
-        There are 5 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
-
-        There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
-
-        There are 5 audio listeners in
-        the scene. Please ensure there is always exactly one audio listener in the
-        scene.
-
-        There are 4 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
 
 '
       stacktrace: 
@@ -1505,138 +2182,102 @@ MonoBehaviour:
       name: DestroyedAsteroidRaisesScore
       fullName: TestSuite.DestroyedAsteroidRaisesScore
       resultStatus: 1
-      duration: 0.1212542
+      duration: 0.1260165
       messages: 
-      output: 'There are 5 audio listeners in the scene. Please ensure there is always
+      output: 'There are 8 audio listeners in the scene. Please ensure there is always
         exactly one audio listener in the scene.
 
-        There are 5 audio listeners
+        There are 8 audio listeners
         in the scene. Please ensure there is always exactly one audio listener in
         the scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 8 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 8 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 8 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 8 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 8 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 8 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 8 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 7 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
-
-        There are 5 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
-
-        There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
-
-        There are 5 audio listeners in
-        the scene. Please ensure there is always exactly one audio listener in the
-        scene.
-
-        There are 5 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
-
-        There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
-
-        There are 5 audio listeners in
-        the scene. Please ensure there is always exactly one audio listener in the
-        scene.
-
-        There are 5 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
-
-        There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
-
-        There are 4 audio listeners in
-        the scene. Please ensure there is always exactly one audio listener in the
-        scene.
-
-        There are 4 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
 
 '
       stacktrace: 
@@ -1653,138 +2294,102 @@ MonoBehaviour:
       name: GameOverOccursOnAsteroidCollision
       fullName: TestSuite.GameOverOccursOnAsteroidCollision
       resultStatus: 1
-      duration: 0.117258
+      duration: 0.1242066
       messages: 
-      output: 'There are 5 audio listeners in the scene. Please ensure there is always
+      output: 'There are 8 audio listeners in the scene. Please ensure there is always
         exactly one audio listener in the scene.
 
-        There are 5 audio listeners
+        There are 8 audio listeners
         in the scene. Please ensure there is always exactly one audio listener in
         the scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 8 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 8 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 8 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 8 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 8 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 8 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 8 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 7 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 7 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
-
-        There are 5 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
-
-        There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
-
-        There are 5 audio listeners in
-        the scene. Please ensure there is always exactly one audio listener in the
-        scene.
-
-        There are 5 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
-
-        There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
-
-        There are 5 audio listeners in
-        the scene. Please ensure there is always exactly one audio listener in the
-        scene.
-
-        There are 5 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
-
-        There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
-
-        There are 4 audio listeners in
-        the scene. Please ensure there is always exactly one audio listener in the
-        scene.
-
-        There are 4 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
 
 '
       stacktrace: 
@@ -1801,130 +2406,108 @@ MonoBehaviour:
       name: LaserDestroysAsteroid
       fullName: TestSuite.LaserDestroysAsteroid
       resultStatus: 1
-      duration: 0.1158596
+      duration: 0.134431
       messages: 
-      output: 'There are 5 audio listeners in the scene. Please ensure there is always
+      output: 'There are 8 audio listeners in the scene. Please ensure there is always
         exactly one audio listener in the scene.
 
-        There are 5 audio listeners
+        There are 8 audio listeners
         in the scene. Please ensure there is always exactly one audio listener in
         the scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 8 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 8 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 8 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 8 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 8 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 8 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 8 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 8 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 7 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
-
-        There are 5 audio listeners in
-        the scene. Please ensure there is always exactly one audio listener in the
-        scene.
-
-        There are 5 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
-
-        There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
-
-        There are 5 audio listeners in
-        the scene. Please ensure there is always exactly one audio listener in the
-        scene.
-
-        There are 5 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
-
-        There
-        are 4 audio listeners in the scene. Please ensure there is always exactly
+        are 7 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
 '
@@ -1942,142 +2525,105 @@ MonoBehaviour:
       name: LaserMovesUp
       fullName: TestSuite.LaserMovesUp
       resultStatus: 1
-      duration: 0.1243376
+      duration: 0.1308807
       messages: 
-      output: 'There are 5 audio listeners in the scene. Please ensure there is always
+      output: 'There are 8 audio listeners in the scene. Please ensure there is always
         exactly one audio listener in the scene.
 
-        There are 5 audio listeners
+        There are 8 audio listeners
         in the scene. Please ensure there is always exactly one audio listener in
         the scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 8 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 8 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 8 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 8 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 8 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 8 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 8 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 8 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 7 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
-
-        There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
-
-        There are 5 audio listeners in
-        the scene. Please ensure there is always exactly one audio listener in the
-        scene.
-
-        There are 5 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
-
-        There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
-
-        There are 5 audio listeners in
-        the scene. Please ensure there is always exactly one audio listener in the
-        scene.
-
-        There are 5 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
-
-        There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
-
-        There are 5 audio listeners in
-        the scene. Please ensure there is always exactly one audio listener in the
-        scene.
-
-        There are 5 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
-
-        There
-        are 4 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
 
 '
       stacktrace: 
@@ -2094,21 +2640,25 @@ MonoBehaviour:
       name: NewGameRestartsGame
       fullName: TestSuite.NewGameRestartsGame
       resultStatus: 1
-      duration: 0.0205079
+      duration: 0.0308593
       messages: 
-      output: 'There are 5 audio listeners in the scene. Please ensure there is always
+      output: 'There are 8 audio listeners in the scene. Please ensure there is always
         exactly one audio listener in the scene.
 
-        There are 5 audio listeners
+        There are 8 audio listeners
         in the scene. Please ensure there is always exactly one audio listener in
         the scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
+
+        There are 8 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.
 
 '
       stacktrace: 
@@ -2125,137 +2675,104 @@ MonoBehaviour:
       name: NewGameScore0
       fullName: TestSuite.NewGameScore0
       resultStatus: 1
-      duration: 0.1207007
+      duration: 0.1282895
       messages: 
-      output: 'There are 5 audio listeners in the scene. Please ensure there is always
+      output: 'There are 8 audio listeners in the scene. Please ensure there is always
         exactly one audio listener in the scene.
 
-        There are 5 audio listeners
+        There are 8 audio listeners
         in the scene. Please ensure there is always exactly one audio listener in
         the scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 8 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 8 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 8 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 8 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 8 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 8 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 8 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 7 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
-
-        There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
-
-        There are 5 audio listeners in
-        the scene. Please ensure there is always exactly one audio listener in the
-        scene.
-
-        There are 5 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
-
-        There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
-
-        There are 5 audio listeners in
-        the scene. Please ensure there is always exactly one audio listener in the
-        scene.
-
-        There are 5 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
-
-        There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
-
-        There are 4 audio listeners in
-        the scene. Please ensure there is always exactly one audio listener in the
-        scene.
-
-        There are 4 audio listeners in the scene. Please ensure
+        There are 7 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
 '
@@ -2273,256 +2790,182 @@ MonoBehaviour:
       name: ShipLeftRight
       fullName: TestSuite.ShipLeftRight
       resultStatus: 1
-      duration: 0.2261026
+      duration: 0.2397773
       messages: 
-      output: 'There are 5 audio listeners in the scene. Please ensure there is always
+      output: 'There are 8 audio listeners in the scene. Please ensure there is always
         exactly one audio listener in the scene.
 
-        There are 5 audio listeners
+        There are 8 audio listeners
         in the scene. Please ensure there is always exactly one audio listener in
         the scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 8 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 8 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 8 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 8 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 8 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 8 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 8 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 8 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 8 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 8 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 8 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 8 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 8 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 8 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 8 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
 
         There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
+        are 8 audio listeners in the scene. Please ensure there is always exactly
         one audio listener in the scene.
 
-        There are 5 audio listeners in
+        There are 7 audio listeners in
         the scene. Please ensure there is always exactly one audio listener in the
         scene.
 
-        There are 5 audio listeners in the scene. Please ensure
+        There are 7 audio listeners in the scene. Please ensure
         there is always exactly one audio listener in the scene.
-
-        There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
-
-        There are 5 audio listeners in
-        the scene. Please ensure there is always exactly one audio listener in the
-        scene.
-
-        There are 5 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
-
-        There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
-
-        There are 5 audio listeners in
-        the scene. Please ensure there is always exactly one audio listener in the
-        scene.
-
-        There are 5 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
-
-        There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
-
-        There are 5 audio listeners in
-        the scene. Please ensure there is always exactly one audio listener in the
-        scene.
-
-        There are 5 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
-
-        There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
-
-        There are 5 audio listeners in
-        the scene. Please ensure there is always exactly one audio listener in the
-        scene.
-
-        There are 5 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
-
-        There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
-
-        There are 5 audio listeners in
-        the scene. Please ensure there is always exactly one audio listener in the
-        scene.
-
-        There are 5 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
-
-        There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
-
-        There are 5 audio listeners in
-        the scene. Please ensure there is always exactly one audio listener in the
-        scene.
-
-        There are 5 audio listeners in the scene. Please ensure
-        there is always exactly one audio listener in the scene.
-
-        There
-        are 5 audio listeners in the scene. Please ensure there is always exactly
-        one audio listener in the scene.
-
-        There are 4 audio listeners in
-        the scene. Please ensure there is always exactly one audio listener in the
-        scene.
 
 '
       stacktrace: 
@@ -2534,470 +2977,470 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1001
       parentUniqueId: Tests.dll/[Tests][TestSuite][suite]
-    m_ResultText: 'EnemyShipMove (0.418s)
+    m_ResultText: 'EnemyLaserCollision (0.318s)
 
       ---
 
-      There are 4 audio listeners
-      in the scene. Please ensure there is always exactly one audio listener in the
-      scene.
-
-      There are 4 audio listeners in the scene. Please ensure there
-      is always exactly one audio listener in the scene.
-
-      There are 4 audio
+      There are 2 audio
       listeners in the scene. Please ensure there is always exactly one audio listener
       in the scene.
 
-      There are 4 audio listeners in the scene. Please ensure
+      There are 2 audio listeners in the scene. Please ensure
       there is always exactly one audio listener in the scene.
 
       There are
-      4 audio listeners in the scene. Please ensure there is always exactly one audio
+      2 audio listeners in the scene. Please ensure there is always exactly one audio
       listener in the scene.
 
-      There are 4 audio listeners in the scene. Please
+      There are 2 audio listeners in the scene. Please
       ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scene.
+      There are 2 audio listeners in the scene.
       Please ensure there is always exactly one audio listener in the scene.
 
       There
-      are 4 audio listeners in the scene. Please ensure there is always exactly one
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
       audio listener in the scene.
 
-      There are 4 audio listeners in the scen...
+      There are 2 audio listeners in the scene.
+      Please ensure there is always exactly one audio listener in the scene.
+
+      There
+      are 2 audio listeners in the scene. Please ensure there is always exactly one
+      audio listener in the scene.
+
+      There are 2 audio listeners in th...
 
 
       ---MESSAGE
@@ -3005,8 +3448,8 @@ MonoBehaviour:
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 6109a03b
-      m_LastClickedID: 1000343905
+      m_SelectedIDs: 2ddaf094
+      m_LastClickedID: -1796154835
       m_ExpandedIDs: 1777a79519782ad99c5851004dad7d1358dfd67345dca17bffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -3105,10 +3548,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 618
+    x: 629
     y: 81
-    width: 807
-    height: 596
+    width: 1005
+    height: 594
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
   m_SerializedViewValues: []
@@ -3118,7 +3561,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 807, y: 504}
+  m_TargetSize: {x: 1005, y: 565}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -3127,16 +3570,16 @@ MonoBehaviour:
   m_VSyncEnabled: 0
   m_Gizmos: 0
   m_Stats: 0
-  m_SelectedSizes: 04000000000000000000000004000000000000000000000000000000000000000000000000000000
+  m_SelectedSizes: 05000000000000000000000004000000000000000000000000000000000000000000000000000000
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -403.5
-    m_HBaseRangeMax: 403.5
-    m_VBaseRangeMin: -252
-    m_VBaseRangeMax: 252
+    m_HBaseRangeMin: -502.5
+    m_HBaseRangeMax: 502.5
+    m_VBaseRangeMin: -282.5
+    m_VBaseRangeMax: 282.5
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -3154,23 +3597,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 807
-      height: 575
+      width: 1005
+      height: 573
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 403.5, y: 287.5}
+    m_Translation: {x: 502.5, y: 286.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -403.5
-      y: -287.5
-      width: 807
-      height: 575
+      x: -502.5
+      y: -286.5
+      width: 1005
+      height: 573
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 807, y: 596}
+  m_LastWindowPixelSize: {x: 1005, y: 594}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000001000000000000
@@ -3197,31 +3640,31 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 8
-    y: 81
-    width: 265
-    height: 596
+    x: 0
+    y: 19
+    width: 199
+    height: 594
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 3aeeffff56eeffff5af9ffffa6faffff
+      m_ExpandedIDs: 2677feff4277feff6686feff2687feff4287feff3a96feff0497feff2097feff2aa6feffeea7feff0aa8fefff8b6feffcab7feffe6b7fefff8c6feffdac7fefff6c7feff58d8feff22dbfeff3edbfeff3aecfeff04edfeff20edfeff2afcfefff4fcfeff10fdfefffe0bffffc00cffffdc0cffffca1bffff941cffffb01cffffc22bffff8c2cffffa82cffffd43bffff063dffff223dffffba4affff784bffff944bffff1259ffff445affff605affff0e68ffffd868fffff468ffff6e76ffff0078ffff1c78ffffe683ffffb084ffffcc84ffff9690ffff6091ffff7c91ffff289dffff36a2ffff52a2ffffaca3ffff76a4ffff92a4ffffa4afffff60fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: EnemyShip(Clone)
+        m_OriginalName: EnemyShip(Clone)
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: -6158
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 8}
       m_SearchString: 
@@ -3394,9 +3837,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 8
-    y: 698
-    width: 1418
-    height: 293
+    y: 696
+    width: 1627
+    height: 295
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -3411,11 +3854,11 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/RW/Scripts
+    - Assets/RW/Resources/Prefabs
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/RW/Scripts
+  - Assets/RW/Resources/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Krystian\Desktop\4th Year Project\RWM_2020_21_P0_Krystian_Jake\Crashteroids
     Starter\Crashteroids Starter
@@ -3423,9 +3866,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 98360000
-    m_LastClickedID: 13976
-    m_ExpandedIDs: 00000000883600008a3600008c36000000ca9a3b
+    m_SelectedIDs: 5e360000
+    m_LastClickedID: 13918
+    m_ExpandedIDs: 00000000483600004a3600004c36000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -3453,7 +3896,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000883600008a3600008c360000
+    m_ExpandedIDs: 00000000483600004a3600004c360000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -3480,7 +3923,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000d80b0000000000004e300000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -3530,10 +3973,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 8
-    y: 698
-    width: 1418
-    height: 293
+    x: 0
+    y: 701
+    width: 1641
+    height: 298
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &20
 MonoBehaviour:
@@ -3556,9 +3999,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1427
+    x: 1636
     y: 81
-    width: 484
+    width: 275
     height: 910
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
