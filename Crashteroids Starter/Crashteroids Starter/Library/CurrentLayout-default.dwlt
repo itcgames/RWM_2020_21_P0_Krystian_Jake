@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -112,10 +112,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 780, y: 492}
-  m_MaxSize: {x: 16005, y: 14042}
+  m_MinSize: {x: 781, y: 492}
+  m_MaxSize: {x: 16006, y: 14042}
   vertical: 0
-  controlID: 218
+  controlID: 130
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_MinSize: {x: 505, y: 492}
   m_MaxSize: {x: 12005, y: 14042}
   vertical: 1
-  controlID: 219
+  controlID: 55
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -166,7 +166,7 @@ MonoBehaviour:
   m_MinSize: {x: 505, y: 221}
   m_MaxSize: {x: 12005, y: 4021}
   vertical: 0
-  controlID: 36
+  controlID: 56
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -293,8 +293,8 @@ MonoBehaviour:
     y: 0
     width: 536
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -326,7 +326,7 @@ MonoBehaviour:
     height: 607
   m_ViewDataDictionary: {fileID: 0}
   m_Spl:
-    ID: 163
+    ID: 155
     splitterInitialOffset: 0
     currentActiveSplitter: -1
     realSizes: 9301000086000000
@@ -347,7 +347,7 @@ MonoBehaviour:
       name: UnityUnitTestingTutorial
       fullName: UnityUnitTestingTutorial
       resultStatus: 1
-      duration: 1.129548
+      duration: 1.0910451
       messages: 
       output: 
       stacktrace: 
@@ -358,14 +358,14 @@ MonoBehaviour:
       categories: []
       parentId: 
       parentUniqueId: 
-    - id: 1006
-      uniqueId: '[Tests][C:/Users/Krystian/Desktop/RWM_2020_21_P0_Krystian_Jake/Crashteroids
+    - id: 1010
+      uniqueId: '[Tests][C:/Users/Krystian/Desktop/4th Year Project/RWM_2020_21_P0_Krystian_Jake/Crashteroids
         Starter/Crashteroids Starter/Library/ScriptAssemblies/Tests.dll][suite]'
       name: Tests.dll
-      fullName: C:/Users/Krystian/Desktop/RWM_2020_21_P0_Krystian_Jake/Crashteroids
+      fullName: C:/Users/Krystian/Desktop/4th Year Project/RWM_2020_21_P0_Krystian_Jake/Crashteroids
         Starter/Crashteroids Starter/Library/ScriptAssemblies/Tests.dll
       resultStatus: 1
-      duration: 1.0851032
+      duration: 1.0550638
       messages: 
       output: 
       stacktrace: 
@@ -381,7 +381,7 @@ MonoBehaviour:
       name: TestSuite
       fullName: TestSuite
       resultStatus: 1
-      duration: 1.0702693
+      duration: 1.04286
       messages: 
       output: 
       stacktrace: 
@@ -398,7 +398,7 @@ MonoBehaviour:
       name: AsteroidsMoveDown
       fullName: TestSuite.AsteroidsMoveDown
       resultStatus: 1
-      duration: 0.215632
+      duration: 0.2140503
       messages: 
       output: 
       stacktrace: 
@@ -415,7 +415,7 @@ MonoBehaviour:
       name: DestroyedAsteroidRaisesScore
       fullName: TestSuite.DestroyedAsteroidRaisesScore
       resultStatus: 1
-      duration: 0.1184546
+      duration: 0.1217014
       messages: 
       output: 
       stacktrace: 
@@ -432,7 +432,7 @@ MonoBehaviour:
       name: GameOverOccursOnAsteroidCollision
       fullName: TestSuite.GameOverOccursOnAsteroidCollision
       resultStatus: 1
-      duration: 0.1144731
+      duration: 0.1127404
       messages: 
       output: 
       stacktrace: 
@@ -449,7 +449,7 @@ MonoBehaviour:
       name: LaserDestroysAsteroid
       fullName: TestSuite.LaserDestroysAsteroid
       resultStatus: 1
-      duration: 0.1192219
+      duration: 0.1140793
       messages: 
       output: 
       stacktrace: 
@@ -466,7 +466,7 @@ MonoBehaviour:
       name: LaserMovesUp
       fullName: TestSuite.LaserMovesUp
       resultStatus: 1
-      duration: 0.1247397
+      duration: 0.1142196
       messages: 
       output: 
       stacktrace: 
@@ -483,7 +483,7 @@ MonoBehaviour:
       name: NewGameRestartsGame
       fullName: TestSuite.NewGameRestartsGame
       resultStatus: 1
-      duration: 0.0182465
+      duration: 0.0173563
       messages: 
       output: 
       stacktrace: 
@@ -500,7 +500,7 @@ MonoBehaviour:
       name: NewGameScore0
       fullName: TestSuite.NewGameScore0
       resultStatus: 1
-      duration: 0.1153886
+      duration: 0.1105164
       messages: 
       output: 
       stacktrace: 
@@ -517,7 +517,7 @@ MonoBehaviour:
       name: ShipLeftRight
       fullName: TestSuite.ShipLeftRight
       resultStatus: 1
-      duration: 0.2179126
+      duration: 0.2130369
       messages: 
       output: 
       stacktrace: 
@@ -529,7 +529,7 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1001
       parentUniqueId: Tests.dll/[Tests][TestSuite][suite]
-    m_ResultText: ShipLeftRight (0.218s)
+    m_ResultText: ShipLeftRight (0.213s)
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
@@ -735,7 +735,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 92c7ffffaec7ffff20ceffff02cfffff1ecfffff90d5ffff4ad6ffff66d6ffffd4dcffff32deffff4edeffffbce4ffff86e5ffffa2e5ffff10ecffffdaecfffff6ecffff6ef3ffff04f5ffff
+      m_ExpandedIDs: 5cf3ffff78f3ffffeef9ffff60fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -939,35 +939,35 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/RW/Tests
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/RW/Tests
+  - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\Krystian\Desktop\RWM_2020_21_P0_Krystian_Jake\Crashteroids
+  m_LastProjectPath: C:\Users\Krystian\Desktop\4th Year Project\RWM_2020_21_P0_Krystian_Jake\Crashteroids
     Starter\Crashteroids Starter
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c6380000
-    m_LastClickedID: 14534
-    m_ExpandedIDs: 00000000163800001838000000ca9a3b
+    m_SelectedIDs: 02360000
+    m_LastClickedID: 13826
+    m_ExpandedIDs: 00000000023600000436000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Textures
-      m_OriginalName: Textures
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 14536
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 11}
     m_SearchString: 
@@ -981,7 +981,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000001638000018380000
+    m_ExpandedIDs: 000000000236000004360000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1008,7 +1008,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000d80b0000000000004e300000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
