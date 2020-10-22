@@ -5,11 +5,15 @@ using UnityEngine;
 public class EnemyShip : MonoBehaviour
 {
     public float speed = 1;
-    public bool canShoot = false;
+    public bool canShoot = true;
     public bool moveLeft = false;
 
     [SerializeField]
     private MeshRenderer mesh;
+    [SerializeField]
+    private GameObject enemyLaser;
+    [SerializeField]
+    private Transform shotSpawn;
 
     private float maxY = -5;
 
@@ -21,7 +25,27 @@ public class EnemyShip : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (canShoot)
+        {
+            StartCoroutine("ShootLaser");
+        }
         Move();
+    }
+
+    IEnumerator ShootLaser()
+    {
+        canShoot = false;
+        GameObject laserShot = SpawnLaser();
+        laserShot.transform.position = shotSpawn.position;
+        yield return new WaitForSeconds(1.0f);
+        canShoot = true;
+    }
+
+    public GameObject SpawnLaser()
+    {
+        GameObject newLaser = Instantiate(enemyLaser);
+        newLaser.SetActive(true);
+        return newLaser;
     }
 
     public void Move()

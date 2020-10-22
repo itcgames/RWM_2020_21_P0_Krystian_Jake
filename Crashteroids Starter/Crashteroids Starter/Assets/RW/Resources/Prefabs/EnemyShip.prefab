@@ -126,9 +126,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  canShoot: 0
+  canShoot: 1
   moveLeft: 0
   mesh: {fileID: 0}
+  enemyLaser: {fileID: 2817465792222633056, guid: 571925e0966de7d4c82053f00f6eaf3a,
+    type: 3}
+  shotSpawn: {fileID: 6044040308872660143}
 --- !u!1 &1960436367400060558
 GameObject:
   m_ObjectHideFlags: 0
