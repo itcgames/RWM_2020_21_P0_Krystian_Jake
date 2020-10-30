@@ -31,12 +31,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Ship : MonoBehaviour
 {
     public bool isDead = false;
     public float speed = 1;
     public bool canShoot = true;
+    private AudioSource audioSource;
+    public AudioClip shoot;
 
     [SerializeField]
     private  MeshRenderer mesh;
@@ -50,6 +53,13 @@ public class Ship : MonoBehaviour
     private float maxLeft = -8;
     private float maxRight = 8;
 
+ 
+    void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+        GetComponent<AudioSource>().playOnAwake = false;
+        GetComponent<AudioSource>().clip = shoot;
+    }
     private void Update()
     {
         if (isDead)
@@ -84,6 +94,8 @@ public class Ship : MonoBehaviour
         GameObject laserShot = SpawnLaser();
         laserShot.transform.position = shotSpawn.position;
         yield return new WaitForSeconds(0.4f);
+        audioSource.clip = shoot;
+        audioSource.Play();
         canShoot = true;
     }
 
