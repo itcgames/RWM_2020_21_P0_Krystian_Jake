@@ -40,6 +40,7 @@ public class Ship : MonoBehaviour
     public bool canShoot = true;
     private AudioSource audioSource;
     public AudioClip shoot;
+    public AudioClip expl;
 
     [SerializeField]
     private  MeshRenderer mesh;
@@ -59,6 +60,7 @@ public class Ship : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
         GetComponent<AudioSource>().playOnAwake = false;
         GetComponent<AudioSource>().clip = shoot;
+        GetComponent<AudioSource>().clip = expl;
     }
     private void Update()
     {
@@ -129,6 +131,8 @@ public class Ship : MonoBehaviour
         mesh.enabled = false;
         explosion.SetActive(true);
         isDead = true;
+        audioSource.clip = expl;
+        audioSource.Play();
     }
 
     public void RepairShip()
